@@ -24,7 +24,7 @@ if (env === 'production') {
     port: '3306',
     user: 'root',
     password: 'password',
-    database: 'myblog', //TODO myblog
+    database: 'blog', //TODO myblog
   }
 
   REDIS_CONFIG = {
