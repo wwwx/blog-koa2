@@ -37,7 +37,7 @@ jobs:
         options: ''
         ssh_options: '-p 28050'
         src: '/'
-        dest: 'root@144.34.192.156:/blog-koa2/'
+        dest: 'root@144.34.192.156:blog-koa2/'
 
     - name: Display status from deploy
       run: echo "${{ steps.deploy.outputs.status }}"
